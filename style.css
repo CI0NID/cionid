@@ -210,6 +210,10 @@ a:visited {color: aliceblue;}
     margin: 10px;
 } 
 
+#perenos {
+  word-break: break-all; 
+}
+
 .block_desc {
   margin-top: 10px;
   font-size: 30px;
