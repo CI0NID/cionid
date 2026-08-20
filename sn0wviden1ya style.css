@@ -1,0 +1,76 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: pink;
+  background-image: url("/png/BG2.png");
+  color: white;
+  font-family: Arial;
+  margin: auto;
+  text-shadow: 0 2px black
+}
+
+  a:link {color:#ebc2af} /* цвет непосещённой ссылки */
+  a:visited {color:#ebc2af} /* цвет посещённой ссылки */
+  a:hover {color:white} /* цвет ссылки при наведении курсора мыши */
+
+.small{
+  font-size: 15px;
+  text-align: center
+}
+
+.center{
+  font-size: 20px;
+  text-align: center
+  }
+  
+  .main{
+  font-size: 20px;
+  }
+  
+  .text{
+  font-size: 20px;
+  line-height: 5px;
+  }
+  
+  
+  .golova{
+  font-size: 30px;
+  }
+  
+  .img-shadow {
+     box-shadow:0 0 50px #f16581;
+  }
+  
+  .space{
+    font-size: 15px;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .block__list {
+    list-style:none;
+    padding: 0;
+  }
+  
+  .text-align:center {
+    text-align: center;
+    margin: 0 auto
+  }
+  
+  .block__list {
+    list-style:none;
+    padding: 0;
+    float: none;
+  }
+
